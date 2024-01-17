@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Example</title>
+  </head>
+  <body>
+    <h1>Fill out the Form</h1>
+    <form id="myForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>Form Data</h2>
+    <div id="displayData"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
