@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <p id="para1">Hello world !</p>
+    <h1>I am heading....</h1>
+    <script>
+      // creating an element
+      const h1Element = document.createElement("h1");
+      h1Element.innerText = "Hi i am h1 tag";
+      document.body.appendChild(h1Element);
+
+      // selecting an element
+      // modifying css properties of element
+      document.getElementById("para1").style.color = "blue";
+      document.getElementById("para1").style.backgroundColor = "pink";
+      const getH1Element = document.getElementsByTagName("h1");
+      for (i = 0; i < getH1Element.length; i++) {
+        document.getElementsByTagName("h1")[i].style.color = "orange";
+      }
+    </script>
+  </body>
+</html>
