@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+  </head>
+  <body>
+    <script>
+      // create list of products
+      // use unordered list
+      const productsList = document.createElement("ul");
+      document.body.appendChild(productsList);
+
+      const phone = document.createElement("li");
+      phone.innerText = "Phone";
+      productsList.appendChild(phone);
+
+      const laptop = document.createElement("li");
+      laptop.innerText = "Laptop";
+      productsList.appendChild(laptop);
+
+      const products = [
+        "Phone",
+        "Laptop",
+        "TV",
+        "AC",
+        "Fridge",
+        "Washing Machine",
+        "Microwave",
+        "Oven",
+        "Camera",
+        "Headphones",
+      ];
+      for (let i = 0;i < products.length;i++){
+        const product = document.createElement("li");
+      product.innerText = products[i]
+      productsList.appendChild(product);
+      }
+    </script>
+  </body>
+</html>
