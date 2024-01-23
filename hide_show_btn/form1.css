@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+fieldset{
+    display: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input:last-child{
+    background-color: purple;
+    border-radius: 10px;
+    height: 30px;
+}
+
