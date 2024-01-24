@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+fieldset {
+  display: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input:last-child {
+  background-color: purple;
+  color: white;
+}
+
+ol li span {
+  border-radius: 30px;
+  padding: 10px;
+  border: 2px solid gray;
+  margin-right: 20px;
+}
