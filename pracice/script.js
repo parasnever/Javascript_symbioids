@@ -21,3 +21,4 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
   
     displayDiv.innerHTML = displayHTML;
   }
+  
